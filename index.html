@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Trading Card</title>
+	<style>
+		body {
+			background: linear-gradient(to right, rgb(18, 18, 18), #000000);
+		}
+		
+		.card {
+			width: 200px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin-left: 40%;
+			display: flex;
+			flex-direction: column;
+			border-radius: 100px 100px 0 0;
+		}
+
+		.image img {
+			width: 100%;
+			height: 100%;
+			border-radius: 100px 100px 0 0;
+		}
+		
+		.info {
+			margin-bottom: 20px;
+			color: white;
+		}
+		
+		.info h2 {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		th, td {
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: left;
+		}
+		
+		.stats {
+			font-weight: bold;
+			font-size: 18px;
+			margin-top: 20px;
+			color: white;
+		}
+		
+		.stats p {
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<div class="image">
+			<img src="image/lion.jpg" alt="Lion">
+		</div>
+		<div class="info">
+			<h2>Lion</h2>
+			<p>King of the Jungle</p>
+			<table>
+				<tr>
+					<th>Habitat</th>
+					<td>Savannah</td>
+				</tr>
+				<tr>
+					<th>Diet</th>
+					<td>Meat</td>
+				</tr>
+				<tr>
+					<th>Fun Fact</th>
+					<td>Lions are social animals and live in prides</td>
+				</tr>
+			</table>
+		</div>
+		<div class="stats">
+			<p>Attack: 8/10</p>
+			<p>Defense: 7/10</p>
+			<p>Speed: 9/10</p>
+		</div>
+	</div>
+</body>
+</html>
